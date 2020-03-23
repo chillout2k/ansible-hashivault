@@ -5,7 +5,12 @@ The hashicorp vault instance runs here as a docker deployment in [development mo
 
 **Do not run the vault server in development mode in production!**
 
-# local inventory
+# Hashicorp Vault setup
+* runs in development mode!
+* authenticates users/clients against a ldap directory
+* uses Galera-DB cluster as HA-aware storage backend
+
+# local ansible inventory
 ```
 ---
 all:
